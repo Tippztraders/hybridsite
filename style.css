@@ -187,6 +187,7 @@ section p {
   color: #444;
   margin-bottom: 10px;
   font-style: italic;
+  margin-top: 5px; /* make toque aqui para abrir perto da imagem */
 }
 
 /* === GALLERY FULLSCREEN VIEW === */
