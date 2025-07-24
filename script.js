@@ -43,3 +43,20 @@ const heroSwiper = new Swiper('.hero-swiper', {
     delay: 4000,
   },
 });
+
+// Zoom on gallery image tap
+document.querySelectorAll('.swiper-slide img').forEach(img => {
+  img.addEventListener('click', () => {
+    const fullView = document.getElementById('fullscreenGallery');
+    const fullImage = document.getElementById('fullscreenImage');
+    fullImage.src = img.src;
+    fullView.style.display = 'flex';
+  });
+});
+
+// Exit on tap
+document.getElementById('fullscreenGallery').addEventListener('click', () => {
+  document.getElementById('fullscreenGallery').style.display = 'none';
+});
+
+
