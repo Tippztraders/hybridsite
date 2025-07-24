@@ -219,6 +219,18 @@ section p {
   font-style: italic;
 }
 
+/* GALLERY SWIPER */
+.gallery-swiper {
+  height: 300px;
+  margin: 1em 0 3em;
+}
+
+/* VIDEO SWIPER */
+.video-swiper {
+  height: 300px;
+  margin-top: 1em;
+}
+
 /* HIGHLIGHT GRID - RESUMO */
 .highlight-grid {
   display: flex;
@@ -324,14 +336,3 @@ footer {
   border-radius: 6px;
 }
 
-/* GALLERY SWIPER */
-.gallery-swiper {
-  height: 300px;
-  margin: 1em 0 3em;
-}
-
-/* VIDEO SWIPER */
-.video-swiper {
-  height: 300px;
-  margin-top: 1em;
-}
