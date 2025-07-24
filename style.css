@@ -100,7 +100,7 @@ body {
   max-width: 960px;
 }
 
-/* DESCRIPTION */
+/* DESCRICAO */
 #descricao h2,
 #localizacao h2,
 #galeria h2,
@@ -180,7 +180,18 @@ section p {
   margin: 1em auto;
 }
 
-/* === IMAGE GALLERY TAP HINT === */
+/* == IMAGE GALLERY == */
+
+/* Make "Toque para abrir" tighter to the gallery */
+.tap-to-open {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 6px; /* Reduced from too high */
+  margin-bottom: 0;
+  color: #555;
+}
+
+/* IMAGE GALLERY TAP HINT */
 .tap-hint {
   text-align: center;
   font-size: 14px;
@@ -190,22 +201,20 @@ section p {
   margin-top: 5px; /* make toque aqui para abrir perto da imagem */
 }
 
-/* === GALLERY FULLSCREEN VIEW === */
-.fullscreen-gallery {
+/* Fullscreen image viewer styles */
+#fullscreenGallery {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.95);
+  background: rgba(0, 0, 0, 0.95);
   display: none;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   z-index: 9999;
   flex-direction: column;
-  padding: 20px;
-}
-
+  padding: 10px;
 .fullscreen-gallery img {
   max-width: 100%;
   max-height: 80vh;
@@ -216,7 +225,7 @@ section p {
   color: #87CEFA;
   font-size: 14px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 10px;  /* 10px */
   font-style: italic;
 }
 
@@ -225,6 +234,21 @@ section p {
   height: 300px;
   margin: 1em 0 3em;
 }
+
+#fullscreenImage {
+  max-width: 90%;
+  max-height: 80vh;
+  margin-bottom: 10px;
+  object-fit: contain;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+ #fullscreenGallery .swiper-pagination {
+  margin-top: 8px;
+  position: relative;
+  bottom: auto;
+} 
 
 /* VIDEO SWIPER */
 .video-swiper {
