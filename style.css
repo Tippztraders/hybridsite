@@ -383,7 +383,7 @@ section p {
 }
   
 #galeria img {
-  max-height: 250px;
+  max-height: 50px;  /* 250px; */
   width: auto;
   object-fit: contain;
 }
