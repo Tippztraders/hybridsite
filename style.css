@@ -387,11 +387,11 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  padding: 2em 1em;
+  padding: 20px;  /* was padding: 2em 1em;  */
   font-size: 1em;
   text-align: center;
+  background-color: #004477; /* or any solid color */      
 }
-
   
 /* == SWIPERS == */
 .swiper-slide img,
