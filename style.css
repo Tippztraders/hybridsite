@@ -526,3 +526,9 @@ footer {
   object-fit: contain;
 }
 
+#galeria, #videos {
+  background: rgba(255,0,0,0.1); /* Light red debug background */
+}
+
+  
+
