@@ -365,6 +365,29 @@ section p {
   bottom: auto;
 } 
 
+/* For resizing image placeholder for gallery */
+#galeria {
+  padding: 20px 0;
+  background: #fff;
+  text-align: center;
+}
+
+#galeria .site-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+#galeria h2 {
+  margin-bottom: 10px;
+}
+  
+#galeria img {
+  max-height: 250px;
+  width: auto;
+  object-fit: contain;
+}
+  
 /* == PRICE == */  
 #preco .info-card p strong {
   font-weight: 600;
