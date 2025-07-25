@@ -352,7 +352,7 @@ section p {
 
 #fullscreenImage {
   max-width: 90%;
-  max-height: 80vh;
+  max-height: 40vh;    /*  80vh;   */
   margin-bottom: 10px;
   object-fit: contain;
   border: 2px solid white;
