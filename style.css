@@ -233,6 +233,14 @@ section p {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
 }
 
+/* For the actual GPS */
+.gps-map-wrapper {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 10px;
+  text-align: center;
+}
+
 /* == IMAGE GALLERY == */
 
 /* Make "Toque para abrir" tighter to the gallery */
