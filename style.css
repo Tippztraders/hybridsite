@@ -215,6 +215,24 @@ section p {
   margin: 0 auto;
 }
 
+/* To make image big/small */
+.gps-image-wrapper {
+  text-align: center;
+  margin: 40px auto;
+  padding: 10px;
+  max-width: 960px;
+}
+
+/* To make image big/small */
+.gps-image-wrapper img.gps-image {
+  display: inline-block;
+  max-width: 100%;
+  width: 300px; /* 🎯 Adjust this to make it smaller/larger */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+}
+
 /* == IMAGE GALLERY == */
 
 /* Make "Toque para abrir" tighter to the gallery */
