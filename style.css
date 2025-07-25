@@ -241,6 +241,47 @@ section p {
   text-align: center;
 }
 
+/* Actul Map with Pin layout */
+#mapa {
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+/* Container allows positioning pin */
+.map-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Main map image */
+.map-image {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Overlay pin centered */
+.map-pin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: auto;
+  transform: translate(-50%, -100%);
+  pointer-events: none;
+}
+
+/* Optional helper text */
+.map-text {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #555;
+  font-style: italic;
+}
+
 /* == IMAGE GALLERY == */
 
 /* Make "Toque para abrir" tighter to the gallery */
