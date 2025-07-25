@@ -128,6 +128,25 @@ body {
   font-size: 1.2em;
 }
 
+.image-pair-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px auto;
+  max-width: 920px;
+  padding: 10px;
+}
+/* IMAGE AFTER DESCRIPTION */
+.image-pair-wrapper img.after-description-image {
+  max-width: 100%;
+  width: 300px;      /* Adjust this to resize */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
 /* == INFO CARDS == */
 .info-card {
   background: linear-gradient(to right, #ccebff, #99d6ff);
