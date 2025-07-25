@@ -305,6 +305,25 @@ section p {
   color: #555;
 }
 
+/* VIDEO GALLERY */
+#videos {
+  max-height: 300px;
+  min-height: 200px;
+  overflow: hidden;
+  padding: 10px 0;
+  background: rgba(0, 0, 255, 0.05); /* TEMP: light blue background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#videos video {
+  max-height: 180px;
+  object-fit: cover;
+  margin: 0 5px;
+  display: inline-block;
+}
+
 /* Image Gallery Tap Hint */
 .tap-hint {
   text-align: center;
@@ -367,12 +386,16 @@ section p {
 
 /* For resizing image placeholder for gallery */
 #galeria {
-  padding: 20px 0;
-  background: #fff;
+  padding: 10px 0; 
   text-align: center;  
   margin: 0 auto;
   max-height: 300px; /* or try 250px if needed */
-  overflow: hidden;
+  overflow: hidden;  
+  min-height: 200px;
+  background: rgba(255, 0, 0, 0.05); /* #fff; TEMP: light red background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #galeria .site-container {
@@ -387,10 +410,10 @@ section p {
   
 #galeria img {
   max-height: 180px;  /* 250px; */
-  width: auto;  
+  /* width: auto; */
   object-fit: cover;
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
+  margin: 0 5px;
 }
   
 /* == PRICE == */  
