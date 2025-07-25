@@ -14,7 +14,7 @@ body {
   text-align: center;
 }
 
-/* HERO */
+/* == HERO == */
 .hero {
   background: #fff8dc;
   text-align: center;
@@ -60,7 +60,7 @@ body {
   margin-top: 0.5em;
 }
 
-/* NAVIGATION */
+/* == NAVIGATION == */
 .section-nav {
   background-color: #004080;
   padding: 1em;
@@ -93,7 +93,7 @@ body {
   background-color: #e0e0e0;
 }
 
-/* IMAGES AFTER SECTIONS */
+/* == IMAGES AFTER SECTIONS == */
 .after-hero-image,
 .after-description-image,
 .after-location-image {
@@ -108,7 +108,7 @@ body {
   max-width: 960px;
 }
 
-/* DESCRICAO */
+/* == DESCRICAO == */
 #descricao h2,
 #localizacao h2,
 #galeria h2,
@@ -128,7 +128,7 @@ body {
   font-size: 1.2em;
 }
 
-/* INFO CARDS */
+/* == INFO CARDS == */
 .info-card {
   background: linear-gradient(to right, #ccebff, #99d6ff);
   border-left: 5px solid #99ccff;
@@ -157,7 +157,7 @@ body {
   margin-right: 8px;
 }
 
-/* ==LOCATION== */
+/* == LOCATION == */
 section p {
   font-size: 1.3em;
   line-height: 1.6;
@@ -217,7 +217,7 @@ section p {
   margin-top: 5px; /* make toque aqui para abrir perto da imagem */
 }
 
-/* Fullscreen image viewer styles */
+/* == Fullscreen image viewer styles == */
 #fullscreenGallery {
   position: fixed;
   top: 0;
@@ -246,7 +246,7 @@ section p {
   font-style: italic;
 }
 
-/* GALLERY SWIPER */
+/* == GALLERY SWIPER ==  */
 .gallery-swiper {
   height: 300px;
   margin: 1em 0 3em;
@@ -273,10 +273,12 @@ section p {
   font-size: 16px;
 }
   
-/* VIDEO SWIPER */
+/* == VIDEO SWIPER == */
 .video-swiper {
-  height: 300px;
+  max-height: 300px;
   margin-top: 1em;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* HIGHLIGHT GRID - RESUMO */
