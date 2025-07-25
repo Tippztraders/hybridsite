@@ -263,6 +263,14 @@ section p {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
+.map-hint {
+  text-align: center;
+  margin-top: -10px;    /* pulls it up */
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
 /* Overlay pin centered */
 .map-pin {
   position: absolute;
