@@ -321,7 +321,7 @@ section p {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 50vh;  /* 100vh; */
+  height: 30vh;  /* 100vh; */
   background: rgba(0, 0, 0, 0.95);  /* was  background: rgba(0, 0, 0, 0.95); 9 t0 95 is alot */
   display: none;
   align-items: center;
