@@ -411,36 +411,27 @@ section p {
 /* == RESUMO == */
 .resume-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1em;
-  padding: 1em 0;
-  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  padding: 20px 0;
   text-align: center;
 }
 
-.resumo-item {
-  background: #9BDDFF; /* Glacier Blue */
-  border-radius: 10px;
-  padding: 1em;
-  width: 160px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease;
+.highlight-card {
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.08);
 }
 
-.resumo-item:hover {
-  transform: scale(1.05);
+.emoji {
+  font-size: 28px;
+  margin-bottom: 8px;
 }
 
-.resumo-item .emoji {
-  font-size: 2em;
-  display: block;
-  margin-bottom: 0.5em;
-}
-
-.resumo-item p {
-  font-size: 1em;
+.highlight-card p {
+  font-size: 14px;
   margin: 0;
-  color: #222;
 }
 
 /* BONUS LINK & DISCLAIMER */
