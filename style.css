@@ -207,7 +207,7 @@ section p {
   color: #555;
 }
 
-/* IMAGE GALLERY TAP HINT */
+/* Image Gallery Tap Hint */
 .tap-hint {
   text-align: center;
   font-size: 14px;
@@ -224,7 +224,7 @@ section p {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(0, 0, 0, 0.95);  /* was  background: rgba(0, 0, 0, 0.95); 9 t0 95 is alot */
   display: none;
   align-items: center;
   justify-content: center;
@@ -235,6 +235,7 @@ section p {
   max-width: 100%;
   max-height: 80vh;
   object-fit: contain;
+  inset: 0;  
 }
 
 .exit-hint {
