@@ -390,8 +390,12 @@ section p {
   
 /* == PRICE == */  
 #preco .info-card p strong {
-  font-weight: 600;
+  font-weight: 200;   /* 600 */  
   font-size: 22px;  /* 16px */  
+}
+
+.info-card {
+  font-size: 16px; /* Adjust this as needed: try 14px, 18px, etc. */
 }
   
 /* == VIDEO SWIPER == */
