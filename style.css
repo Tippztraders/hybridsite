@@ -203,7 +203,7 @@ section p {
 
 /* == GPS IMAGE == */
 .after-location-image {
-  max-width: 200px;
+  max-width: 400px;
   margin: 1em auto;
 }
 
