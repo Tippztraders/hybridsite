@@ -227,7 +227,7 @@ section p {
 .gps-image-wrapper img.gps-image {
   display: inline-block;
   max-width: 100%;
-  width: 300px; /* 🎯 Adjust this to make it smaller/larger */
+  width: 500px; /* 400 Adjust this to make it smaller/larger */
   height: auto;
   border-radius: 8px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
