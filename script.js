@@ -80,3 +80,9 @@ const fullscreenSwiper = new Swiper('.fullscreen-swiper', {
 fullscreenWrapper.addEventListener('click', () => {
   fullscreenWrapper.style.display = 'none';
 });
+
+// Wrap in DOMContentLoaded
+document.addEventListener('DOMContentLoaded', () => {
+  // your swiper and click initialization here
+});
+
