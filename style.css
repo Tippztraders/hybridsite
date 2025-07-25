@@ -28,6 +28,14 @@ body {
   margin-bottom: 1em;
 }
 
+.after-hero-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: 10px auto;
+}
+
 .headline {
   font-size: 1.8em;
   font-weight: bold;
