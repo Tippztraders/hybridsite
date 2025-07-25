@@ -320,10 +320,18 @@ section p {
   .resume-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 1em;   /* was  gap: 10px; */
   text-align: center;
+  justify-items: center;
+  padding: 1em 0;
 }
 
+  .resumo-item {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+  
 .resume-block {
   background: #f0f0f0;
   padding: 10px;
@@ -332,6 +340,9 @@ section p {
 
 /* BONUS LINK & DISCLAIMER */
 .bonus-link {
+  display: inline-block;
+  font-size: 1em;  /* reduce from inherited larger sizes */
+  margin-top: 1em;
   color: #0066cc;
   text-decoration: underline;
   font-weight: bold;
