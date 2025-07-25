@@ -250,13 +250,17 @@ section p {
 
 /* Container allows positioning pin */
 .map-container {
-  position: relative;
-  display: inline-block;
+  position: relative;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: fit-content;
 }
 
 /* Main map image */
 .map-image {
-  max-width: 300px;
+  max-width: 400px; /* was 300 */
   width: 100%;
   height: auto;
   border-radius: 10px;
