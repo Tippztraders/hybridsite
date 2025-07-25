@@ -408,59 +408,39 @@ section p {
 
 /* == RESUMO == */  
 /* HIGHLIGHT GRID - RESUMO */
-.highlight-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+/* == RESUMO == */
+.resume-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1em;
-  padding: 1em;
+  padding: 1em 0;
+  justify-items: center;
+  text-align: center;
 }
 
-.highlight-card {
-  background: #f0fdf4;
-  border: 2px solid #22f213;
+.resumo-item {
+  background: #9BDDFF; /* Glacier Blue */
   border-radius: 10px;
   padding: 1em;
   width: 160px;
-  text-align: center;
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
   transition: transform 0.2s ease;
 }
 
-.highlight-card:hover {
+.resumo-item:hover {
   transform: scale(1.05);
 }
 
-.highlight-card .emoji {
+.resumo-item .emoji {
   font-size: 2em;
+  display: block;
   margin-bottom: 0.5em;
 }
 
-.highlight-card p {
-  font-size: 0.95em;
+.resumo-item p {
+  font-size: 1em;
   margin: 0;
-  color: #333;
-}
-
-  .resume-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1em;   /* was  gap: 10px; */
-  text-align: center;
-  justify-items: center;
-  padding: 1em 0;
-}
-
-  .resumo-item {
-  text-align: center;
-  font-size: 1.2em;
-  line-height: 1.4;
-}
-  
-.resume-block {
-  background: #f0f0f0;
-  padding: 10px;
-  border-radius: 10px;
+  color: #222;
 }
 
 /* BONUS LINK & DISCLAIMER */
