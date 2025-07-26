@@ -305,25 +305,6 @@ section p {
   color: #555;
 }
 
-/* VIDEO GALLERY */
-#videos {
-  max-height: 300px;
-  min-height: 200px;
-  overflow: hidden;
-  padding: 10px 0;
-  background: rgba(0, 0, 255, 0.05); /* TEMP: light blue background */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#videos video {
-  max-height: 180px;
-  object-fit: cover;
-  margin: 0 5px;
-  display: inline-block;
-}
-
 /* Image Gallery Tap Hint */
 .tap-hint {
   text-align: center;
@@ -396,6 +377,10 @@ section p {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap; /* ✅ NEW — allows multiple rows if needed */
+  gap: 6px;        /* ✅ NEW — adds spacing between images */
+}
+  
 }
 
 #galeria .site-container {
@@ -410,10 +395,29 @@ section p {
   
 #galeria img {
   max-height: 180px;  /* 250px; */
-  /* width: auto; */
+  width: auto; 
   object-fit: cover;
   display: inline-block;
   margin: 0 5px;
+}
+
+/* VIDEO GALLERY */
+#videos {
+  max-height: 300px;
+  min-height: 200px;
+  overflow: hidden;
+  padding: 10px 0;
+  background: rgba(0, 0, 255, 0.05); /* TEMP: light blue background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#videos video {
+  max-height: 180px;
+  object-fit: cover;
+  margin: 0 5px;
+  display: inline-block;
 }
   
 /* == PRICE == */  
@@ -549,9 +553,4 @@ footer {
   object-fit: contain;
 }
 
-#galeria, #videos {
-  background: rgba(255,0,0,0.1); /* Light red debug background */
-}
-
-  
 
