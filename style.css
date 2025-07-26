@@ -465,6 +465,8 @@ section p {
 .highlight-card p {
   font-size: 14px;
   margin: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 /* BONUS LINK & DISCLAIMER */
