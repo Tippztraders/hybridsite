@@ -454,6 +454,7 @@ section p {
   border-radius: 12px;
   padding: 12px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.08);
+  text-align: center; /* center all inner text including emoji */
 }
 
 .emoji {
