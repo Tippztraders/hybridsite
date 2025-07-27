@@ -515,7 +515,6 @@ section p {
 
 /* FOOTER: THIS CODE CONTROLS THE FOOTER */
 .footer {
-  background-image: url('footerbg.jpg');
   background-size: 100% 150px;
   background-position: center;
   background-repeat: no-repeat;
