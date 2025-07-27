@@ -329,11 +329,11 @@ section p {
   z-index: 9999;
   flex-direction: column;
   padding: 10px;
-.fullscreen-gallery img {
+  /* .fullscreen-gallery img { THIS HAS BEING CAUSING SERIOUS ISSUES, for RESUME AND FOOTER */
   max-width: 100%;
   max-height: 80vh;
   object-fit: contain;
-  inset: 0;  
+  /* inset: 0;  { THIS HAS BEING CAUSING SERIOUS ISSUES, for RESUME AND FOOTER */
 }
 
 .exit-hint {
