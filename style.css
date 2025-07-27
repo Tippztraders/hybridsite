@@ -452,7 +452,8 @@ section p {
   font-size: 40px;  /* 16px */  
 }
 
-.info-card {   /* This changes shape and colours of price */
+/* This Controls Price Styles and this one the Atual Preco somente */
+.info-card {
   background: linear-gradient(to right, #ccebff, #99d6ff);
   border-left: 5px solid #99ccff;
   padding: 1em;
@@ -462,10 +463,25 @@ section p {
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   text-align: left;
   font-size: 1em;
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
+  display: block;
+  color: #003366;
 }
+
+/* This Controls Price Styles  */
+.destaque-preco {
+  background: linear-gradient(to right, #d4fcd4, #a0e6a0);
+  border: 2px solid #8ccf8c;
+  padding: 12px 18px;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 0;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  font-size: 1.4em;
+  color: #004d00;
+}
+
 
 /* == RESUMO == */  
 /* HIGHLIGHT GRID - RESUMO */
