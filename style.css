@@ -505,50 +505,6 @@ section p {
   text-decoration: none;
 }
 
-/* LINKS ÚTEIS */
-.links-uteis {
-  text-align: center;
-  padding: 2em 1em;
-  max-width: 720px;
-  margin: 0 auto;
-  border-top: 1px solid #ccc;
-}
-
-.links-uteis h2 {
-  font-size: 1.5em;
-  margin-bottom: 1em;
-  color: #396afa;
-}
-
-.links-uteis ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1em;
-}
-
-.links-uteis li {
-  padding: 0.5em 1em;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  background-color: #f7f7f7;
-}
-
-.links-uteis a {
-  text-decoration: none;
-  color: #0066cc;
-  font-weight: 500;
-  transition: color 0.2s;
-  display: block;
-}
-
-.links-uteis a:hover {
-  color: #004799;
-}
-
 /* FOOTER: THIS CODE CONTROLS THE FOOTER */
 footer {
   background-image: url('footerbg.jpg');
