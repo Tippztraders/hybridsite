@@ -447,31 +447,23 @@ section p {
 }
   
 /* == PRICE == */  
-#preco .info-card p strong {
-  font-weight: 1000;   /* 600 */  
-  font-size: 40px;  /* 16px */  
-}
-
-/* This Controls Price Styles and this one the Atual Preco somente */
 .info-card {
-  background: linear-gradient(to right, #ccebff, #99d6ff);
+  background: linear-gradient(to right, #ccebff, #99d6ff); /* blue gradient */
   border-left: 5px solid #99ccff;
-  padding: 1em;
+  padding: 1em; /* 1em */
   margin: 1em auto;
   border-radius: 10px;
   max-width: 720px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   text-align: left;
   font-size: 1em;
-  display: block;
   color: #003366;
 }
 
-/* This Controls Price Styles  */
-.destaque-preco {
-  background: linear-gradient(to right, #d4fcd4, #a0e6a0);
+.destaque-preco {  /* this is the "atual preco" */
+  background: linear-gradient(to right, #d4fcd4, #a0e6a0); /* green gradient */
   border: 2px solid #8ccf8c;
-  padding: 12px 18px;
+  padding: 22px 28px; /* 18px 24px; */
   margin: 20px auto;
   text-align: center;
   font-weight: bold;
@@ -482,6 +474,18 @@ section p {
   color: #004d00;
 }
 
+.pago-dolares { 
+  background: linear-gradient(to right, #e8ebed, #e6e8eb); 
+  border-left: 5px solid #bfbfbf;
+  padding: 1em;
+  margin: 1em auto;
+  border-radius: 10px;
+  max-width: 720px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-align: left;
+  font-size: 1em;
+  color: #003366;
+}
 
 /* == RESUMO == */  
 /* HIGHLIGHT GRID - RESUMO */
